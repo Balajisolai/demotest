@@ -1,0 +1,139 @@
+/* .App {
+  font-family: sans-serif;
+ text-align: center;  */
+
+.welcome{
+  font-family: "pacifico", cursive;
+
+} */ 
+
+ .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+
+
+ .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} 
+
+/* 
+ .App{
+  font-family: sans-serif;
+  text-align:center;  */
+/* 
+.welcome{
+  font-family: 'Neonderthaw', cursive;
+}  */
+
+ .user-profile-pic{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+
+   border-radius: 50%; 
+}
+.h1{
+ 
+  text-decoration-style: solid;
+}
+
+.movie-poster{
+  width:340px;
+  height: 500px;
+  object-fit: cover;
+}
+ 
+.movie-container{
+width:340px;
+
+}
+
+.movie-specs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movie-name{
+  margin: 0;
+  font-size: 24px;
+}
+.movie-summary{
+  margin-top: 0;
+}
+
+.movie-rating{
+  font-size: 18px;
+}
+.movie-list{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.counter-container{
+  display: flex;
+  gap: 10px;
+}
+.like-dislike{
+  font-size: 20px;
+}
+
+.add-movie-form{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin:16px;
+}
+
+.movie-container{
+  width: 340px;
+  height: min-content;
+}
+
+.game-box{
+  height:160px;
+  width: 160px;
+  
+  border: 2px  solid black;
+  font-size: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+
+.board{
+display: flex;
+flex-wrap: wrap;
+width: 492px; ;
+  
+}
+.full-game{
+  display: flex;
+  justify-content: center ;
+}
+
+.not-found{
+  text-align: center;
+  font-size: 54px;
+  margin: 0;
+}
+.movie-detail-container{
+max-width: 900px;
+padding: 24px;
+}
+
+.route-container{
+  margin: 20px;
+}
